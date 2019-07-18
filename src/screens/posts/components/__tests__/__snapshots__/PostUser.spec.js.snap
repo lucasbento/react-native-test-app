@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostUser /> renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#7E7E7E",
+      "marginTop": 7,
+    }
+  }
+>
+  By 
+  Leanne Graham
+   (
+  <Text
+    style={
+      Object {
+        "color": "#00B2FF",
+      }
+    }
+  >
+    @
+    Bret
+  </Text>
+  ) from
+   
+  Romaguera-Crona
+</Text>
+`;

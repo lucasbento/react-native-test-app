@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostListItem /> renders correctly 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[MockFunction]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderRadius": 5,
+      "elevation": 1,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "margin": 5,
+      "padding": 10,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontWeight": "bold",
+        "marginRight": 15,
+      }
+    }
+  >
+    sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  </Text>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/arrow-right.png",
+      }
+    }
+    style={
+      Object {
+        "height": 20,
+        "resizeMode": "contain",
+        "width": 10,
+      }
+    }
+  />
+</TouchableOpacity>
+`;

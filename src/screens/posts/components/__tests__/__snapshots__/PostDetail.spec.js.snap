@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostDetail /> renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "flex": 1,
+      "marginHorizontal": 10,
+      "marginTop": 10,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7E7E7E",
+          "marginTop": 7,
+        }
+      }
+    >
+      By 
+      Leanne Graham
+       (
+      <Text
+        style={
+          Object {
+            "color": "#00B2FF",
+          }
+        }
+      >
+        @
+        Bret
+      </Text>
+      ) from
+       
+      Romaguera-Crona
+    </Text>
+    <Text
+      style={
+        Object {
+          "marginTop": 20,
+        }
+      }
+    >
+      quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+    </Text>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`<PostDetail /> renders correctly when loading 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;
